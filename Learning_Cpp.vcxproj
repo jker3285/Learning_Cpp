@@ -22,7 +22,8 @@
     <ClInclude Include="Lesson1\Type.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Lesson8\Class.cpp" />
+    <ClCompile Include="EXTRA_example\Pokemon\MainSystem.cpp" />
+    <ClCompile Include="EXTRA_example\TextRPG.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\01033\\Desktop\\\uD504\uB85C\uC81D\uD2B8\\Cpp \uD30C\uC77C \uBAA8\uC74C\\GitHub\\Learning_Cpp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2849FBF-A0CA-453A-BB06-EB2A1C17C649}|Learning_Cpp.vcxproj|C:\\Users\\01033\\Desktop\\\uD504\uB85C\uC81D\uD2B8\\Cpp \uD30C\uC77C \uBAA8\uC74C\\GitHub\\Learning_Cpp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F2849FBF-A0CA-453A-BB06-EB2A1C17C649}|Learning_Cpp.vcxproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2849FBF-A0CA-453A-BB06-EB2A1C17C649}|Learning_Cpp.vcxproj|C:\\Users\\01033\\Desktop\\\uD504\uB85C\uC81D\uD2B8\\Cpp \uD30C\uC77C \uBAA8\uC74C\\GitHub\\Learning_Cpp\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{F2849FBF-A0CA-453A-BB06-EB2A1C17C649}|Learning_Cpp.vcxproj|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2849FBF-A0CA-453A-BB06-EB2A1C17C649}|Learning_Cpp.vcxproj|C:\\Users\\01033\\Desktop\\\uD504\uB85C\uC81D\uD2B8\\Cpp \uD30C\uC77C \uBAA8\uC74C\\GitHub\\Learning_Cpp\\Lesson8\\Turn_Battle_Example.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F2849FBF-A0CA-453A-BB06-EB2A1C17C649}|Learning_Cpp.vcxproj|solutionrelative:Lesson8\\Turn_Battle_Example.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2849FBF-A0CA-453A-BB06-EB2A1C17C649}|Learning_Cpp.vcxproj|C:\\Users\\01033\\Desktop\\\uD504\uB85C\uC81D\uD2B8\\Cpp \uD30C\uC77C \uBAA8\uC74C\\GitHub\\Learning_Cpp\\Lesson8\\TurnBattle_Example_Struct-Ver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F2849FBF-A0CA-453A-BB06-EB2A1C17C649}|Learning_Cpp.vcxproj|solutionrelative:Lesson8\\TurnBattle_Example_Struct-Ver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2849FBF-A0CA-453A-BB06-EB2A1C17C649}|Learning_Cpp.vcxproj|C:\\Users\\01033\\Desktop\\\uD504\uB85C\uC81D\uD2B8\\Cpp \uD30C\uC77C \uBAA8\uC74C\\GitHub\\Learning_Cpp\\Lesson8\\Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F2849FBF-A0CA-453A-BB06-EB2A1C17C649}|Learning_Cpp.vcxproj|solutionrelative:Lesson8\\Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\01033\\Desktop\\\uD504\uB85C\uC81D\uD2B8\\Cpp \uD30C\uC77C \uBAA8\uC74C\\GitHub\\Learning_Cpp\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\01033\\Desktop\\\uD504\uB85C\uC81D\uD2B8\\Cpp \uD30C\uC77C \uBAA8\uC74C\\GitHub\\Learning_Cpp\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-10T14:38:47.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\01033\\Desktop\\\uD504\uB85C\uC81D\uD2B8\\Cpp \uD30C\uC77C \uBAA8\uC74C\\GitHub\\Learning_Cpp\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\01033\\Desktop\\\uD504\uB85C\uC81D\uD2B8\\Cpp \uD30C\uC77C \uBAA8\uC74C\\GitHub\\Learning_Cpp\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-10T14:38:45.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Turn_Battle_Example.cpp",
+              "DocumentMoniker": "C:\\Users\\01033\\Desktop\\\uD504\uB85C\uC81D\uD2B8\\Cpp \uD30C\uC77C \uBAA8\uC74C\\GitHub\\Learning_Cpp\\Lesson8\\Turn_Battle_Example.cpp",
+              "RelativeDocumentMoniker": "Lesson8\\Turn_Battle_Example.cpp",
+              "ToolTip": "C:\\Users\\01033\\Desktop\\\uD504\uB85C\uC81D\uD2B8\\Cpp \uD30C\uC77C \uBAA8\uC74C\\GitHub\\Learning_Cpp\\Lesson8\\Turn_Battle_Example.cpp",
+              "RelativeToolTip": "Lesson8\\Turn_Battle_Example.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-10T14:38:37.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TurnBattle_Example_Struct-Ver.cpp",
+              "DocumentMoniker": "C:\\Users\\01033\\Desktop\\\uD504\uB85C\uC81D\uD2B8\\Cpp \uD30C\uC77C \uBAA8\uC74C\\GitHub\\Learning_Cpp\\Lesson8\\TurnBattle_Example_Struct-Ver.cpp",
+              "RelativeDocumentMoniker": "Lesson8\\TurnBattle_Example_Struct-Ver.cpp",
+              "ToolTip": "C:\\Users\\01033\\Desktop\\\uD504\uB85C\uC81D\uD2B8\\Cpp \uD30C\uC77C \uBAA8\uC74C\\GitHub\\Learning_Cpp\\Lesson8\\TurnBattle_Example_Struct-Ver.cpp",
+              "RelativeToolTip": "Lesson8\\TurnBattle_Example_Struct-Ver.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-10T14:38:35.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class.cpp",
+              "DocumentMoniker": "C:\\Users\\01033\\Desktop\\\uD504\uB85C\uC81D\uD2B8\\Cpp \uD30C\uC77C \uBAA8\uC74C\\GitHub\\Learning_Cpp\\Lesson8\\Class.cpp",
+              "RelativeDocumentMoniker": "Lesson8\\Class.cpp",
+              "ToolTip": "C:\\Users\\01033\\Desktop\\\uD504\uB85C\uC81D\uD2B8\\Cpp \uD30C\uC77C \uBAA8\uC74C\\GitHub\\Learning_Cpp\\Lesson8\\Class.cpp",
+              "RelativeToolTip": "Lesson8\\Class.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-10T14:38:34.322Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
