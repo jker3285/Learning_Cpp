@@ -20,11 +20,203 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EXTRA_example\TextRPG.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="EXTRA_example\Pokemon\MainSystem.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="헤더 파일\Pokemon" />
+    <Filter Include="헤더 파일\Pokemon\Learnsets" />
+    <Filter Include="헤더 파일\Pokemon\Learnsets\Colosseum" />
+    <Filter Include="헤더 파일\Pokemon\Learnsets\Crystal" />
+    <Filter Include="헤더 파일\Pokemon\Learnsets\Emerald" />
+    <Filter Include="헤더 파일\Pokemon\Learnsets\FireRedLeafGreen" />
+    <Filter Include="헤더 파일\Pokemon\Learnsets\GoldSilver" />
+    <Filter Include="헤더 파일\Pokemon\Learnsets\RedBlue" />
+    <Filter Include="헤더 파일\Pokemon\Learnsets\RubySapphire" />
+    <Filter Include="헤더 파일\Pokemon\Learnsets\Xd" />
+    <Filter Include="헤더 파일\Pokemon\Learnsets\Yellow" />
+    <Filter Include="헤더 파일\Pokemon\Lookup" />
+    <Filter Include="헤더 파일\Pokemon\Models" />
+    <Filter Include="헤더 파일\Pokemon\Moves" />
+    <Filter Include="헤더 파일\Pokemon\Species" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EXTRA_example\Pokemon\Abilities.h">
+      <Filter>헤더 파일\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\All.h">
+      <Filter>헤더 파일\Pokemon\Learnsets</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Colosseum\Generation1.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\Colosseum</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Colosseum\Generation2.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\Colosseum</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Colosseum\Generation3.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\Colosseum</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Colosseum.h">
+      <Filter>헤더 파일\Pokemon\Learnsets</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Crystal\Generation1.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\Crystal</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Crystal\Generation2.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\Crystal</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Crystal.h">
+      <Filter>헤더 파일\Pokemon\Learnsets</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Emerald\Generation1.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\Emerald</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Emerald\Generation2.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\Emerald</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Emerald\Generation3.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\Emerald</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Emerald.h">
+      <Filter>헤더 파일\Pokemon\Learnsets</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\FireRedLeafGreen\Generation1.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\FireRedLeafGreen</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\FireRedLeafGreen\Generation2.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\FireRedLeafGreen</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\FireRedLeafGreen\Generation3.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\FireRedLeafGreen</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\FireRedLeafGreen.h">
+      <Filter>헤더 파일\Pokemon\Learnsets</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\GoldSilver\Generation1.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\GoldSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\GoldSilver\Generation2.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\GoldSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\GoldSilver.h">
+      <Filter>헤더 파일\Pokemon\Learnsets</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\RedBlue\Generation1.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\RedBlue</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\RedBlue.h">
+      <Filter>헤더 파일\Pokemon\Learnsets</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\RubySapphire\Generation1.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\RubySapphire</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\RubySapphire\Generation2.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\RubySapphire</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\RubySapphire\Generation3.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\RubySapphire</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\RubySapphire.h">
+      <Filter>헤더 파일\Pokemon\Learnsets</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Xd\Generation1.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\Xd</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Xd\Generation2.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\Xd</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Xd\Generation3.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\Xd</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Xd.h">
+      <Filter>헤더 파일\Pokemon\Learnsets</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Yellow\Generation1.h">
+      <Filter>헤더 파일\Pokemon\Learnsets\Yellow</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Yellow.h">
+      <Filter>헤더 파일\Pokemon\Learnsets</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Abilities.h">
+      <Filter>헤더 파일\Pokemon\Lookup</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Learnsets.h">
+      <Filter>헤더 파일\Pokemon\Lookup</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Moves.h">
+      <Filter>헤더 파일\Pokemon\Lookup</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Species.h">
+      <Filter>헤더 파일\Pokemon\Lookup</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup.h">
+      <Filter>헤더 파일\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Models\AbilityInfo.h">
+      <Filter>헤더 파일\Pokemon\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Models\ArrayView.h">
+      <Filter>헤더 파일\Pokemon\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Models\BaseStats.h">
+      <Filter>헤더 파일\Pokemon\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Models\Enums.h">
+      <Filter>헤더 파일\Pokemon\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Models\LearnsetEntry.h">
+      <Filter>헤더 파일\Pokemon\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Models\MoveInfo.h">
+      <Filter>헤더 파일\Pokemon\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Models\PokemonInfo.h">
+      <Filter>헤더 파일\Pokemon\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Models.h">
+      <Filter>헤더 파일\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Moves\All.h">
+      <Filter>헤더 파일\Pokemon\Moves</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Moves\Generation1.h">
+      <Filter>헤더 파일\Pokemon\Moves</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Moves\Generation2.h">
+      <Filter>헤더 파일\Pokemon\Moves</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Moves\Generation3.h">
+      <Filter>헤더 파일\Pokemon\Moves</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\PokemonData.h">
+      <Filter>헤더 파일\Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Species\All.h">
+      <Filter>헤더 파일\Pokemon\Species</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Species\Generation1.h">
+      <Filter>헤더 파일\Pokemon\Species</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Species\Generation2.h">
+      <Filter>헤더 파일\Pokemon\Species</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Species\Generation3.h">
+      <Filter>헤더 파일\Pokemon\Species</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Types.h">
+      <Filter>헤더 파일\Pokemon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EXTRA_example\Pokemon\Example.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <None Include="EXTRA_example\Pokemon\README.md" />
+    <None Include="EXTRA_example\Pokemon\SOURCE_REVISION.txt" />
+    <None Include="EXTRA_example\Pokemon\tools\generate.py" />
+    <None Include="EXTRA_example\Pokemon\tools\validate.cpp">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>

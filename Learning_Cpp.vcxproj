@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -23,7 +23,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EXTRA_example\Pokemon\MainSystem.cpp" />
-    <ClCompile Include="EXTRA_example\TextRPG.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -83,6 +82,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -97,6 +97,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -109,6 +110,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -123,6 +125,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -132,4 +135,68 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ItemGroup>
+    <ClInclude Include="EXTRA_example\Pokemon\Abilities.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\All.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Colosseum\Generation1.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Colosseum\Generation2.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Colosseum\Generation3.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Colosseum.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Crystal\Generation1.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Crystal\Generation2.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Crystal.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Emerald\Generation1.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Emerald\Generation2.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Emerald\Generation3.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Emerald.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\FireRedLeafGreen\Generation1.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\FireRedLeafGreen\Generation2.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\FireRedLeafGreen\Generation3.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\FireRedLeafGreen.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\GoldSilver\Generation1.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\GoldSilver\Generation2.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\GoldSilver.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\RedBlue\Generation1.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\RedBlue.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\RubySapphire\Generation1.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\RubySapphire\Generation2.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\RubySapphire\Generation3.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\RubySapphire.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Xd\Generation1.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Xd\Generation2.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Xd\Generation3.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Xd.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Yellow\Generation1.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Learnsets\Yellow.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Abilities.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Learnsets.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Moves.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Species.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Models\AbilityInfo.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Models\ArrayView.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Models\BaseStats.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Models\Enums.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Models\LearnsetEntry.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Models\MoveInfo.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Models\PokemonInfo.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Models.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Moves\All.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Moves\Generation1.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Moves\Generation2.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Moves\Generation3.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\PokemonData.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Species\All.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Species\Generation1.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Species\Generation2.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Species\Generation3.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Types.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EXTRA_example\Pokemon\Example.cpp" />
+    <None Include="EXTRA_example\Pokemon\README.md" />
+    <None Include="EXTRA_example\Pokemon\SOURCE_REVISION.txt" />
+    <None Include="EXTRA_example\Pokemon\tools\generate.py" />
+    <None Include="EXTRA_example\Pokemon\tools\validate.cpp" />
+  </ItemGroup>
 </Project>
