@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="EXTRA_example\Pokemon\Battle\Combat.h" />
     <ClInclude Include="Lesson1\Type.h" />
   </ItemGroup>
   <ItemGroup>
