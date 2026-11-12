@@ -4,6 +4,7 @@
 #include "Lookup/Moves.h"
 #include "Lookup/Abilities.h"
 #include "Lookup/Learnsets.h"
+#include "Lookup/Combat.h"
 
 namespace pokemon {
 

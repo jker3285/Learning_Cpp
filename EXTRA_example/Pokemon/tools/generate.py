@@ -1,4 +1,4 @@
-"""Generate C++11 headers from pinned PokeAPI CSVs. Python standard library only."""
+﻿"""Generate C++11 headers from pinned PokeAPI CSVs. Python standard library only."""
 import csv
 import json
 from pathlib import Path
@@ -266,7 +266,7 @@ inline bool CanLearn(int dexNumber, int moveId, VersionGroup version) {
     for index, (filename, marker, includes) in enumerate(lookup_sections):
         end = lookup_body.index(lookup_sections[index+1][1]) if index+1 < len(lookup_sections) else len(lookup_body)
         emit('Lookup/' + filename, lookup_body[lookup_body.index(marker):end], includes)
-    emit('Lookup.h', '', ['Lookup/' + s[0] for s in lookup_sections])
+    emit('Lookup.h', '', ['Lookup/' + s[0] for s in lookup_sections] + ['Lookup/Combat.h'])
     emit('PokemonData.h','', ['Lookup.h'])
     print('Generated 386 species, 354 moves, 76 abilities and',sum(len(set(x)) for x in learn.values()),'learnset entries.')
 

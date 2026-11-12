@@ -74,3 +74,14 @@ pokemon-example.exe
 포켓몬·기술·특성 이름은 헤더에서도 읽을 수 있도록 한글 문자열로 직접 저장합니다. 영문 `identifier`는 원본 참조용이며 화면에는 `name`을 출력합니다. 각 포켓몬과 기술은 항목별로 줄을 나누고 한국어 설명을 붙였습니다. 습득 기술표는 포켓몬과 습득 방식별로 묶으며 각 행에 한글 기술명을 표시합니다.
 
 MSVC에서는 `/utf-8`로 컴파일합니다. Visual Studio 프로젝트의 모든 구성에 이 옵션을 추가했습니다. 예제는 Windows 콘솔을 UTF-8로 설정하고 한글 이름·습득 방식을 출력합니다.
+
+## 전투 코드 연결
+
+`MainSystem.cpp`에서는 `#include "PokemonData.h"` 하나로 데이터 조회와 전투 선언을 함께 불러옵니다. 포함 관계는 `PokemonData.h → Lookup.h → Lookup/Combat.h`입니다.
+
+- `Lookup/Combat/Enums.h`: `EType`, `ESkillCategory`.
+- `Lookup/Combat/Skill.h`: `Skill` 클래스.
+- `Lookup/Combat/Pokemon.h`: `PokemonData` 클래스.
+- `Battle/Combat.h`: 기존 include 경로를 위한 전달 헤더.
+
+기존 전투 클래스 이름과 공개 함수 선언은 유지합니다. `PokemonData`의 매개변수 생성자와 `LearnSkill`, `UseSkill`, 피해 계산, 경험치 관련 함수는 아직 선언 단계이므로 호출 전에 본문을 작성해야 합니다. 실행 진입점 `main()`은 현재 `Example.cpp`에 있습니다. 전투 클래스는 기존대로 전역 이름공간에 있으며 정적 도감 데이터는 `pokemon` 이름공간에 있습니다.

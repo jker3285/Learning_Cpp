@@ -222,4 +222,13 @@
       <Filter>소스 파일</Filter>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Filter Include="헤더 파일\Pokemon\Lookup\Combat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Combat.h"><Filter>헤더 파일\Pokemon\Lookup</Filter></ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Combat\Enums.h"><Filter>헤더 파일\Pokemon\Lookup\Combat</Filter></ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Combat\Pokemon.h"><Filter>헤더 파일\Pokemon\Lookup\Combat</Filter></ClInclude>
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Combat\Skill.h"><Filter>헤더 파일\Pokemon\Lookup\Combat</Filter></ClInclude>
+  </ItemGroup>
 </Project>

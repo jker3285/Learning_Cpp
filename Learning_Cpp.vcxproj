@@ -194,10 +194,15 @@
     <ClInclude Include="EXTRA_example\Pokemon\Types.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="EXTRA_example\Pokemon\Example.cpp" />
     <None Include="EXTRA_example\Pokemon\README.md" />
     <None Include="EXTRA_example\Pokemon\SOURCE_REVISION.txt" />
     <None Include="EXTRA_example\Pokemon\tools\generate.py" />
     <None Include="EXTRA_example\Pokemon\tools\validate.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Combat.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Combat\Enums.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Combat\Pokemon.h" />
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Combat\Skill.h" />
   </ItemGroup>
 </Project>
