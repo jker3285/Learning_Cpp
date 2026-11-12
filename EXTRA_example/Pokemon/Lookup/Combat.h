@@ -4,3 +4,4 @@
 #include "Combat/Enums.h"
 #include "Combat/Skill.h"
 #include "Combat/Pokemon.h"
+#include "Combat/BattleSystem.h"

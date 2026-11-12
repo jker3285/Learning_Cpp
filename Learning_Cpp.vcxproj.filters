@@ -231,4 +231,7 @@
     <ClInclude Include="EXTRA_example\Pokemon\Lookup\Combat\Pokemon.h"><Filter>헤더 파일\Pokemon\Lookup\Combat</Filter></ClInclude>
     <ClInclude Include="EXTRA_example\Pokemon\Lookup\Combat\Skill.h"><Filter>헤더 파일\Pokemon\Lookup\Combat</Filter></ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Combat\BattleSystem.h"><Filter>헤더 파일\Pokemon\Lookup\Combat</Filter></ClInclude>
+  </ItemGroup>
 </Project>

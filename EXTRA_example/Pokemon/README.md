@@ -85,3 +85,9 @@ MSVC에서는 `/utf-8`로 컴파일합니다. Visual Studio 프로젝트의 모�
 - `Battle/Combat.h`: 기존 include 경로를 위한 전달 헤더.
 
 기존 전투 클래스 이름과 공개 함수 선언은 유지합니다. `PokemonData`의 매개변수 생성자와 `LearnSkill`, `UseSkill`, 피해 계산, 경험치 관련 함수는 아직 선언 단계이므로 호출 전에 본문을 작성해야 합니다. 실행 진입점 `main()`은 현재 `Example.cpp`에 있습니다. 전투 클래스는 기존대로 전역 이름공간에 있으며 정적 도감 데이터는 `pokemon` 이름공간에 있습니다.
+
+### 배틀 시스템 인터페이스
+
+`Lookup/Combat/BattleSystem.h`에 행동·전투 상태, 조종자, `BattleSystem` 선언을 모았습니다. `PokemonData.h`와 기존 `Battle/Combat.h` 양쪽에서 같은 선언을 불러옵니다. `PlayerController`는 `IBattleController`를 공개 상속합니다. 실행 단계와 내부 함수 철자는 `Execute`로 통일하며 이전 `ExcuteTurn` 열거값은 호환 별칭으로 유지합니다. 선공 결정 함수는 난수 상태를 변경할 수 있도록 비상수 함수입니다.
+
+현재 배틀 클래스는 선언 단계입니다. 생성자와 턴 진행 함수 등의 본문을 작성하기 전에는 실제 전투를 실행할 수 없습니다. 생성자에서는 null/동일 포인터를 검사하고, 턴 실행에서는 기절한 포켓몬의 후속 행동 방지·PP·입력 범위·도주·교체 처리를 구현해야 합니다.

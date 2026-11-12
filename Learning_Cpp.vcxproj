@@ -205,4 +205,7 @@
     <ClInclude Include="EXTRA_example\Pokemon\Lookup\Combat\Pokemon.h" />
     <ClInclude Include="EXTRA_example\Pokemon\Lookup\Combat\Skill.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EXTRA_example\Pokemon\Lookup\Combat\BattleSystem.h" />
+  </ItemGroup>
 </Project>
